@@ -3,7 +3,7 @@ import pandas as pd
 
 
 tracker = OfflineEmissionsTracker(
-    project_name="Hackathon 2 - Data/IA - Groupe 0 - ",
+    project_name="Hackathon 2 - Data/IA - Groupe 1 - ",
     output_dir='./emissions',
     measure_power_secs=10,
     save_to_file=True,
@@ -23,7 +23,7 @@ def update_project_name(new_project_name):
     global tracker
     tracker.stop()  # Stop the current tracker if it's running
     tracker = OfflineEmissionsTracker(
-        project_name = f"Hackathon 2 - Data/IA - Groupe 0 - {new_project_name}",
+        project_name = f"Hackathon 2 - Data/IA - Groupe 1 - {new_project_name}",
         output_dir='./emissions',
         measure_power_secs=10,
         save_to_file=True,
